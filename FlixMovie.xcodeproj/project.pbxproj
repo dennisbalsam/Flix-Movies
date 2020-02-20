@@ -12,7 +12,7 @@
 		F121259E23FE2CCC00199A1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F121259D23FE2CCC00199A1F /* ViewController.swift */; };
 		F12125A123FE2CCC00199A1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F121259F23FE2CCC00199A1F /* Main.storyboard */; };
 		F12125A323FE2CCE00199A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12125A223FE2CCE00199A1F /* Assets.xcassets */; };
-		F12125A623FE2CCE00199A1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12125A423FE2CCE00199A1F /* LaunchScreen.storyboard */; };
+		F12125A623FE2CCE00199A1F /*  LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12125A423FE2CCE00199A1F /*  LaunchScreen.storyboard */; };
 		F12125B123FE2CCE00199A1F /* FlixMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12125B023FE2CCE00199A1F /* FlixMovieTests.swift */; };
 		F12125BC23FE2CCE00199A1F /* FlixMovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12125BB23FE2CCE00199A1F /* FlixMovieUITests.swift */; };
 /* End PBXBuildFile section */
@@ -41,7 +41,7 @@
 		F121259D23FE2CCC00199A1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F12125A023FE2CCC00199A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F12125A223FE2CCE00199A1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F12125A523FE2CCE00199A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F12125A523FE2CCE00199A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/ LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		F12125A723FE2CCE00199A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F12125AC23FE2CCE00199A1F /* FlixMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12125B023FE2CCE00199A1F /* FlixMovieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixMovieTests.swift; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 				F121259D23FE2CCC00199A1F /* ViewController.swift */,
 				F121259F23FE2CCC00199A1F /* Main.storyboard */,
 				F12125A223FE2CCE00199A1F /* Assets.xcassets */,
-				F12125A423FE2CCE00199A1F /* LaunchScreen.storyboard */,
+				F12125A423FE2CCE00199A1F /*  LaunchScreen.storyboard */,
 				F12125A723FE2CCE00199A1F /* Info.plist */,
 			);
 			path = FlixMovie;
@@ -232,7 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F12125A623FE2CCE00199A1F /* LaunchScreen.storyboard in Resources */,
+				F12125A623FE2CCE00199A1F /*  LaunchScreen.storyboard in Resources */,
 				F12125A323FE2CCE00199A1F /* Assets.xcassets in Resources */,
 				F12125A123FE2CCC00199A1F /* Main.storyboard in Resources */,
 			);
@@ -305,12 +305,12 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F12125A423FE2CCE00199A1F /* LaunchScreen.storyboard */ = {
+		F12125A423FE2CCE00199A1F /*  LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F12125A523FE2CCE00199A1F /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = " LaunchScreen.storyboard";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
