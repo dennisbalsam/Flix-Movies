@@ -1,7 +1,7 @@
 # Flix-Movies
  Movie browsing app--similar to Fandango and Rotten Tomatoes created using swift for iOS devices
  
- #WORK IN PROGRESS 
+ # WORK IN PROGRESS 
  
  GIF of current progress, have movie name, synopsis, and picture showing from API data
 
