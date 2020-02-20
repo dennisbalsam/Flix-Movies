@@ -8,10 +8,23 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
 
+    
+
+    //some variables/properties
+    
+    //table view storyboard property
+    @IBOutlet weak var TableView: UITableView!
+    //array of dictionaries
+    var movies = [[String:Any]]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        TableView.dataSource = self
+        TableView.delegate = self
         // Do any additional setup after loading the view.
         // api call url
         let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
@@ -25,6 +38,9 @@ class ViewController: UIViewController {
            } else if let data = data {
               let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
               
+            self.movies = dataDictionary["results"] as! [[String:Any]]
+            
+            self.TableView.reloadData()
               // TODO: Get the array of movies
               // TODO: Store the movies in a property to use elsewhere
               // TODO: Reload your table view data
@@ -34,6 +50,24 @@ class ViewController: UIViewController {
         task.resume()
     }
 
+    //table view functions
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return movies.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        //create table view cell
+        let cell = UITableViewCell()
+        
+        // get each movie
+        let movie = movies[indexPath.row]
+        let title = movie["title"] as! String
+        
+        //add movie title
+        cell.textLabel?.text = title
+        
+        return cell
+    }
     
 
 }
