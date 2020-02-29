@@ -12,7 +12,8 @@
 
 GIF of finished product, have a Now Playing Page and a Superhero Movies page. Each one has movies which can be clicked for more detials.
  
-<img src="http://g.recordit.co/Yfu2ycdb38.gif" width=250><br>
+![Walkthrough GIF](http://g.recordit.co/bMiADo46Ta.gif)
+
 ### Notes
 Describe any challenges encountered while building the app.
 
