@@ -7,14 +7,32 @@
 //
 
 import UIKit
+import AlamofireImage
 
-class MovieGridViewController: UIViewController {
+class MovieGridViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate{
 
+    
+
+    
+    // UI component
+    @IBOutlet weak var collectionView: UICollectionView!
+    
     var movies = [[String:Any]]()
     
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
+            
+        collectionView.delegate = self
+        collectionView.dataSource = self
+        
+        let layout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
+        
+        layout.minimumLineSpacing = 5
+        layout.minimumInteritemSpacing = 5
+        
+        let width = (view.frame.size.width - layout.minimumInteritemSpacing * 2) / 3
+        layout.itemSize = CGSize(width: width, height: width*3/2)
         // Do any additional setup after loading the view.
         //getting superhero movies
         let url = URL(string: "https://api.themoviedb.org/3/movie/297762/similar?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
@@ -29,7 +47,7 @@ class MovieGridViewController: UIViewController {
                let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
                
              self.movies = dataDictionary["results"] as! [[String:Any]]
-             
+                self.collectionView.reloadData()
                 print(self.movies)
                // TODO: Get the array of movies
                // TODO: Store the movies in a property to use elsewhere
@@ -39,7 +57,42 @@ class MovieGridViewController: UIViewController {
          }
          task.resume()
     }
+        
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return movies.count
+    }
     
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MovieGridCell", for: indexPath) as! MovieGridCell
+        
+        let movie = movies[indexPath.item]
+        
+        //get movie poster
+        let baseUrl = "https://image.tmdb.org/t/p/w185"
+        let posterPath = movie["poster_path"] as! String
+        let posterUrl = URL(string: baseUrl + posterPath)
+        
+        //display movie poster using alamo fire
+        cell.posterView.af_setImage(withURL: posterUrl!)
+        
+        return cell
+    }
+    
+    // preparesdata for navigation
+    override func prepare(for seque: UIStoryboardSegue, sender: Any?) {
+
+        
+        //get selected movie to pass
+        let cell = sender as! UICollectionViewCell
+        let indexPath = collectionView.indexPath(for: cell)!
+        let movie = movies[indexPath.row]
+        
+        //pass the data
+        let detailsViewController = seque.destination as! CollectionViewMovieDetails
+        detailsViewController.movie = movie
+
+        
+    }
 
     /*
     // MARK: - Navigation

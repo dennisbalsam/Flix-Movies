@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1A2CD6CB-F224-4C7D-8211-6BF6C8B69953"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23D91349-3442-4D17-A0A1-26FB069B4B1F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FlixMovie/MovieGridViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "MovieGridViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "23D91349-3442-4D17-A0A1-26FB069B4B1F - a7cce8c59fdcad78"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FlixMovie.MovieGridViewController.movies.getter : Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;"
+                  moduleName = "FlixMovie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user165734/Documents/FlixMovie/FlixMovie/MovieGridViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "23D91349-3442-4D17-A0A1-26FB069B4B1F - 23f96407cff380bc"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FlixMovie.MovieGridViewController.movies.setter : Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;"
+                  moduleName = "FlixMovie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user165734/Documents/FlixMovie/FlixMovie/MovieGridViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "23D91349-3442-4D17-A0A1-26FB069B4B1F - 41c3280d093a520b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FlixMovie.MovieGridViewController.movies.modify : Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;"
+                  moduleName = "FlixMovie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user165734/Documents/FlixMovie/FlixMovie/MovieGridViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "23D91349-3442-4D17-A0A1-26FB069B4B1F - c8b7a28726839751"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FlixMovie.MovieGridViewController.movies.modify : Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "FlixMovie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user165734/Documents/FlixMovie/FlixMovie/MovieGridViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "23D91349-3442-4D17-A0A1-26FB069B4B1F - d339a4c4f6d888f5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FlixMovie.MovieGridViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; FlixMovie.MovieGridViewController"
+                  moduleName = "FlixMovie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user165734/Documents/FlixMovie/FlixMovie/MovieGridViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "163">
+               </Location>
+               <Location
+                  uuid = "23D91349-3442-4D17-A0A1-26FB069B4B1F - 95784fe952623c4e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FlixMovie.MovieGridViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;FlixMovie.MovieGridViewController&gt;"
+                  moduleName = "FlixMovie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user165734/Documents/FlixMovie/FlixMovie/MovieGridViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F3AB8E4-AEC5-4A53-9401-E26B6CC0D39F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FlixMovie/MovieGridViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

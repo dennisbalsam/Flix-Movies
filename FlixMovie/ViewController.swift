@@ -81,7 +81,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     // preparesdata for navigation
     override func prepare(for seque: UIStoryboardSegue, sender: Any?) {
-        print("Loading up details screen")
+        
         
         //get selected movie to pass
         let cell = sender as! UITableViewCell
