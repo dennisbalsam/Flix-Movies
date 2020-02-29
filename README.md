@@ -14,8 +14,7 @@ GIF of finished product, have a Now Playing Page and a Superhero Movies page. Ea
  
 ![Walkthrough GIF](http://g.recordit.co/bMiADo46Ta.gif)
 
-### Notes
-Describe any challenges encountered while building the app.
+
 
 # Flix-Movies Part 2
  Movie browsing app--similar to Fandango and Rotten Tomatoes created using swift for iOS devices
